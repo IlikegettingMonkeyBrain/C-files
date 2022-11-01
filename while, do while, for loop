@@ -1,0 +1,46 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int i = 0;
+
+		do
+		{
+			Console.WriteLine("i = {0}", i);
+			i+=2;
+		
+		} while (i < 22);
+	}
+}
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int i = 0; // initialization
+
+		while (i < 22) // condition
+		{
+			Console.WriteLine("i = {0}", i);
+		
+			i+=2; // increment
+		}
+	}
+}
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		for (int i = 0; i < 22; i+=2)
+		{
+			Console.WriteLine("i = {0}", i);
+		}
+	}
+}
